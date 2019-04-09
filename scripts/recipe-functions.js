@@ -120,7 +120,7 @@ const loadMainPage = () => {
     if (recipesFromStorage.length === 0){
         let recipesDIV = document.querySelector('#recipes-div')
         let titleParagraph = document.createElement('h2')
-        titleParagraph.innerHTML = 'You currently have <span> 0 </span> recipes store in your app.'
+        titleParagraph.innerHTML = 'You currently have 0 recipes stored in your Recipe App!'
         recipesDIV.appendChild(titleParagraph)
     } else {
         recipesFromStorage.forEach(renderMainPageRecipes)
