@@ -28,14 +28,14 @@ document.querySelector('#update-recipe').addEventListener('click', () => {
     //store allRecipes into local storage
     saveRecipes(allRecipes)
     //Redirect to home page
-    window.location.assign('/index.html')
+    window.location.assign('./index.html')
 })
 
 document.querySelector('#delete-recipe-button').addEventListener('click', function(){
     const confirmation = confirm('Are you sure you want to delete this recipe?')
     if (confirmation){
         deleteRecipe(allRecipes, recipe.id)
-        location.assign('/index.html')
+        location.assign('./index.html')
         saveRecipes(allRecipes)
     }
     
