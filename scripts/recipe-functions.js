@@ -115,8 +115,10 @@ const loadMainPage = () => {
     //Display each recipe in local storage
     if (recipesFromStorage === null){
         return
+    } else {
+        recipesFromStorage.forEach(renderMainPageRecipes)
     }
-    recipesFromStorage.forEach(renderMainPageRecipes)
+    
 }
 
 //Recipe filter function
