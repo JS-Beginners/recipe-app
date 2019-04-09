@@ -105,11 +105,11 @@ const calculateCompletionStatus = (recipe) => {
     })
     
     if (count === 0){
-        return 'You have <span>none</span> of the ingredients'
+        return 'You have<span> none </span>of the ingredients'
     } else if (count === numberOfIngredients){
-        return 'You have <span>all</span> the ingredients'
+        return 'You have<span> all </span>the ingredients'
     } else {
-        return 'You have <span>some</span> of the ingredients'
+        return 'You have<span> some </span>of the ingredients'
     }
 }
 
