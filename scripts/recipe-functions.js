@@ -113,7 +113,7 @@ const loadMainPage = () => {
     //Retrieve all recipes from local storage
     const recipesFromStorage = getAllRecipes();
     //Display each recipe in local storage
-    if (recipesFromStorage === null){
+    if (recipesFromStorage.length === 0){
         let recipesDIV = document.querySelector('#recipes-div')
         let titleParagraph = document.createElement('p')
         titleParagraph.innerHTML = 'You currently have <span>0</span> recipes in app.'
