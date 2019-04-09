@@ -19,7 +19,11 @@ document.querySelector('#add-recipe').addEventListener('click', () => {
     const recipeName = document.querySelector('#recipe-name')
     const recipeDescription = document.querySelector('#recipe-description')
     recipe.id = window.location.hash.substr(1)
+    if (recipeName.value.length === 0){
+        recipe.name = 'Unnamed Recipe'
+    } else {
     recipe.name = recipeName.value
+    }
     recipe.description = recipeDescription.value
     //push recipe to allRecipes
     allRecipes.push(recipe)
