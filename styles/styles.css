@@ -38,7 +38,7 @@ p {
 /* Container */
 
 .container {
-  max-width: 60rem;
+  max-width: 80%;
   margin: 0 auto;
   padding: 0 1.6rem;
 }
@@ -159,7 +159,7 @@ textarea::placeholder{
     padding: .8rem;
     transition: background .3s ease, color .3s ease;
     border-radius: 5px;
-    margin: 0em 2.5em;
+    margin: 2.5em 0em;
 }
 
 .button--add {
