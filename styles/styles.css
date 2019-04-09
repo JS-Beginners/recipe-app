@@ -38,7 +38,7 @@ p {
 /* Container */
 
 .container {
-  max-width: 80%;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 0 1.6rem;
 }
@@ -100,7 +100,7 @@ textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    columns: 80%
+    max-width: 100%
 }
 
 textarea::placeholder{
