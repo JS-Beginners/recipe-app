@@ -141,8 +141,8 @@ const renderFilteredRecipes = (filteredRecipes) => {
 
 const renderMainPageRecipes = (recipe) => {
     let recipesDIV = document.querySelector('#recipes-div')
-    let titleParagraph = document.createElement('p')
-    let summaryParagraph = document.createElement('p')
+    let titleParagraph = document.createElement('h4')
+    let summaryParagraph = document.createElement('h5')
     let recipeBox = document.createElement('a')
     
     
