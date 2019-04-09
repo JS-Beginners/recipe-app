@@ -14,7 +14,7 @@ searchBar.addEventListener('input', function() {
 //Click to add a new recipe on its own page
 document.querySelector('#add-recipe-button').addEventListener('click', () => {  
     const id = uuidv4()
-    window.location.assign(`/add-recipe.html#${id}`)
+    window.location.assign(`./add-recipe.html#${id}`)
 })
 
 
