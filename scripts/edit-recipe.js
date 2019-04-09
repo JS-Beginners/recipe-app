@@ -5,7 +5,7 @@ const recipeId = window.location.hash.substring(1)
 const recipe = findRecipe(allRecipes, recipeId)
 
 if (recipe === undefined){
-    location.assign('/index.html')
+    location.assign('./index.html')
 }
 
 renderRecipe(recipe)
