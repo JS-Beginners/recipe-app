@@ -30,6 +30,10 @@ span {
     text-transform: uppercase;
 }
 
+p {
+    display: flex;
+}
+
 /* Container */
 
 .container {
