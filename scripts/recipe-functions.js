@@ -146,7 +146,7 @@ const renderMainPageRecipes = (recipe) => {
     
     recipeBox.appendChild(titleParagraph)
     recipeBox.appendChild(summaryParagraph)
-    recipeBox.setAttribute('href', `/edit-recipe.html#${recipe.id}`)
+    recipeBox.setAttribute('href', `./edit-recipe.html#${recipe.id}`)
     recipeBox.style.textDecoration = 'none'
 
     recipesDIV.appendChild(recipeBox)
