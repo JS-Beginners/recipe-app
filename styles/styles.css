@@ -96,6 +96,13 @@ p {
     padding: .4rem .8rem;
 }
 
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 textarea::placeholder{
     border: none;
     font-size: 1.4rem;
