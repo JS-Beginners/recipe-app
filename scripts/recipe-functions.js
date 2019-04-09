@@ -55,7 +55,11 @@ const renderIngredients = (ingredients) => {
         ingredientItem.appendChild(checkBox)
         //add element title to item
         let itemName = document.createElement('span')
-        itemName.textContent = element.name
+        if (element.name.length === 0){
+            itemName.textContent = 'Unnamed Ingredient'
+        } else {
+            itemName.textContent = element.name
+        }
         itemName.classList.add('text-element')
         ingredientItem.appendChild(itemName)
         //addremove button to item
