@@ -26,5 +26,5 @@ document.querySelector('#add-recipe').addEventListener('click', () => {
     //store allRecipes into local storage
     saveRecipes(allRecipes)
     //Redirect to home page
-    window.location.assign('/index.html')
+    window.location.assign('./index.html')
 })
