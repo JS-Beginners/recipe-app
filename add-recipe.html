@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Recipe App</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+        <div class="header">
+                <div class="container">
+                        <a href="/index.html"><h1 class="header header__title">The Recipe App</h1></a>
+                    <h2 class="header__subtitle">What recipe do you want to save today?</h2>
+                </div>
+        </div>
+        <div class="actions">
+            <div class="actions__container">
+                <h2>Add Recipe</h2>
+            </div>       
+        </div>
+        <div class="container">
+            <input class="input" type="text" id="recipe-name" placeholder="Add a recipe name">
+            <div >
+            <textarea class="description" id="recipe-description" placeholder="Recipe Steps" cols="100" rows="10"></textarea>
+            </div>
+        <div id="ingredients-container">
+            <h2>Ingredients</h2>
+            <div id="ingredients-section">
+        
+            </div>
+            <div>
+                <form id="ingredient-form">
+                    <input class="input" type="text" name="ingredient-name" placeholder="Add ingredient">
+                    <button class="button--add" id="add-ingredient-button">Add Ingredient</button>
+                </form>
+                <div id="ingredients-list">
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <button class="button" id="add-recipe">Add New Recipe</button>
+        </div>
+        
+        </div>
+            
+        <script src="/scripts/uuidv4.js"></script>
+        <script src="/scripts/recipe-functions.js"></script>
+        <script src="/scripts/add-recipe.js"></script>   
+</body>
+</html>
